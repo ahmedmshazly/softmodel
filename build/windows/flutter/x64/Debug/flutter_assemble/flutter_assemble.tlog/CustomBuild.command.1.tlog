@@ -1,0 +1,28 @@
+^D:\CURRENT_PROJECTS\SOFTMODEL\SOFTMODEL\BUILD\WINDOWS\CMAKEFILES\26E49FC2C35AC3BBA301EABDE8E8565F\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=D:\Current_Projects\softmodel\softmodel FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=D:\Current_Projects\softmodel\softmodel\windows\flutter\ephemeral PROJECT_DIR=D:\Current_Projects\softmodel\softmodel FLUTTER_TARGET=D:\Current_Projects\softmodel\softmodel\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\Current_Projects\softmodel\softmodel\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CURRENT_PROJECTS\SOFTMODEL\SOFTMODEL\BUILD\WINDOWS\CMAKEFILES\99020F16D00AB27B30DCB78AF409E445\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\CURRENT_PROJECTS\SOFTMODEL\SOFTMODEL\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Current_Projects/softmodel/softmodel/windows -BD:/Current_Projects/softmodel/softmodel/build/windows --check-stamp-file D:/Current_Projects/softmodel/softmodel/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

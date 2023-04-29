@@ -1,0 +1,10 @@
+D:/Current_Projects/softmodel/softmodel/build/windows/CMakeFiles/INSTALL.dir
+D:/Current_Projects/softmodel/softmodel/build/windows/CMakeFiles/ALL_BUILD.dir
+D:/Current_Projects/softmodel/softmodel/build/windows/CMakeFiles/ZERO_CHECK.dir
+D:/Current_Projects/softmodel/softmodel/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+D:/Current_Projects/softmodel/softmodel/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+D:/Current_Projects/softmodel/softmodel/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+D:/Current_Projects/softmodel/softmodel/build/windows/flutter/CMakeFiles/INSTALL.dir
+D:/Current_Projects/softmodel/softmodel/build/windows/runner/CMakeFiles/softmodel.dir
+D:/Current_Projects/softmodel/softmodel/build/windows/runner/CMakeFiles/INSTALL.dir
+D:/Current_Projects/softmodel/softmodel/build/windows/runner/CMakeFiles/ALL_BUILD.dir

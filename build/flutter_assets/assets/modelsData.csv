@@ -1,0 +1,35 @@
+Model,Project Size,Project Type,Methodology,Flexibility,Communication & Collaboration,Planning & Documentation,Risk Management,Quality Assurance,Release Strategy,Customer Involvement,Resource Management,Metrics & Measurement,Min Team Size,Max Team Size,Preferred Use Cases
+Waterfall Model,Large,Any,Linear,Low,Low,High,Low,High,Scheduled,Low,High,High,10,50,Well-defined requirements
+Iterative Model,Small-Medium,Any,Iterative,Medium,Medium,Medium,Medium,High,Incremental,Medium,Medium,Medium,5,20,Evolving requirements
+Incremental Model,Small-Medium,Any,Incremental,Medium,Medium,Medium,Medium,High,Incremental,Medium,Medium,Medium,5,20,Modular development
+V-Model,Large,Any,Linear,Low,Low,High,Low,Very High,Scheduled,Low,High,High,10,50,High emphasis on testing
+Spiral Model,Large-Complex,Any,Iterative,High,High,High,High,High,Incremental,High,High,High,10,100+,High-risk or complex projects
+Agile Model,Small-Medium,Any,Iterative,High,High,Low,High,High,Continuous,High,Medium,High,5,20,Rapidly changing requirements
+Scrum Framework,Small-Medium,Any,Iterative,High,High,Low,High,High,Continuous,High,Medium,High,5,9,"Small, cross-functional teams"
+Extreme Programming (XP),Small-Medium,Any,Iterative,High,High,Low,High,High,Continuous,High,Medium,High,5,12,"Rapid development, collaboration"
+Feature-Driven Development (FDD),Small-Medium,Any,Iterative,Medium,High,Medium,Medium,High,Incremental,Medium,Medium,Medium,5,20,Feature-focused development
+Lean Software Development,Small-Medium,Any,Iterative,High,High,Low,High,High,Continuous,High,Medium,High,5,20,"Eliminating waste, improving flow"
+Kanban Method,Small-Medium,Any,Continuous,High,High,Low,Medium,High,Continuous,Medium,Medium,High,3,15,Workflow optimization
+Rapid Application Development (RAD),Small-Medium,Any,Iterative,High,High,Low,High,Medium,Incremental,High,Medium,Medium,5,20,"Fast development, prototypes"
+Prototyping Model,Small-Medium,Any,Iterative,High,High,Low,Medium,Medium,Incremental,High,Medium,Medium,5,20,"Validate requirements, early feedback"
+Joint Application Development (JAD),Small-Medium,Any,Iterative,High,High,Medium,Medium,High,Incremental,High,Medium,Medium,5,20,"Collaborative, requirements-driven"
+Rational Unified Process (RUP),Small-Large,Any,Iterative,Medium,High,High,High,High,Incremental,Medium,High,High,5,50,"Structured, iterative development"
+Dynamic Systems Development Method (DSDM),Medium-Large,Any,Agile,High,High,Medium,High,High,Frequent,High,High,High,6,50,Complex projects
+Test-Driven Development (TDD),Small-Medium,Any,"Agile, XP",High,Medium,Low,Medium,High,Frequent,Medium,Medium,High,3,15,Projects with clear requirements
+Behavior-Driven Development (BDD),Small-Medium,Any,"Agile, XP",High,High,Low,Medium,High,Frequent,High,Medium,High,3,15,Projects with complex logic
+DevOps Model,Small-Large,Any,"Agile, Lean",High,High,Medium,High,High,Continuous,Medium,High,High,5,50,Projects requiring frequent deployment
+Scaled Agile Framework (SAFe),Large,Any,"Agile, Scrum, XP",Medium,High,High,High,High,Frequent,High,High,High,50,100,Large-scale projects
+Large-Scale Scrum (LeSS),Medium-Large,Any,"Agile, Scrum",High,High,Medium,High,High,Frequent,High,High,High,10,50,Scaling Scrum projects
+Crystal Methodologies,Small-Large,Any,Agile,High,High,Low-Medium,Medium,High,Frequent,High,Medium,Medium,3,50,Projects with varied size and complexity
+Capability Maturity Model Integration (CMMI),Small-Large,Any,Process Improvement,Low-Medium,Medium,High,High,High,Scheduled,Low-Medium,High,High,5,100,Process improvement and quality management
+Chaos Model,Small-Medium,Any,Adaptive,High,Medium,Low,High,Medium,As Needed,Medium,Low,Low,2,10,Rapidly changing projects
+Component-Based Software Engineering (CBSE),Medium-Large,Any,Component-based,Medium,Medium,High,Medium,High,Scheduled,Low-Medium,Medium,High,5,30,"Modular, reusable components"
+Cleanroom Software Engineering (CSE),Medium-Large,Safety-critical,Process-based,Low,Medium,High,High,High,Scheduled,Low,High,High,5,30,Safety-critical systems
+Formal Methods,Medium-Large,"Safety-critical, Complex",Theoretical,Low,Low,High,High,High,Scheduled,Low,High,High,5,30,Rigorous specification and verification
+Model-Driven Development (MDD),Small-Large,Any,Model-based,Medium,Medium,High,Medium,High,Scheduled,Medium,Medium,High,5,50,Projects using modeling languages
+Service-Oriented Architecture (SOA),Medium-Large,Enterprise,Architectural,High,Medium,High,Medium,High,Scheduled,Low-Medium,Medium,High,10,50,Enterprise application integration
+Microservices Architecture,Small-Large,Any,Architectural,High,Medium,Medium,High,High,Continuous,Medium,High,High,5,50,"Scalable, modular applications"
+Domain-Driven Design (DDD),Small-Large,Complex,Design,High,High,Medium,Medium,High,Frequent,High,Medium,High,3,15,Complex domain modeling
+System Development Life Cycle (SDLC),Small-Large,Any,General Framework,Medium,Medium,High,Medium,Medium,Scheduled,Medium,Medium,Medium,3,50,General software development
+Team Software Process (TSP),Small-Medium,Any,Process Improvement,Medium,High,High,Medium,High,Scheduled,Low-Medium,Medium,High,5,20,Team-based process improvement
+Adaptive Software Development (ASD),Small-Medium,Changing Requirements,Iterative,High,High,Low,High,Medium,Frequent,High,High,Low,3,15,Projects with evolving requirements

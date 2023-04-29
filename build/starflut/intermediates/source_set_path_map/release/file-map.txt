@@ -1,0 +1,12 @@
+com.srplab.starflut-jetified-window-java-1.0.0-beta04-0 C:\Users\shazly\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+com.srplab.starflut-core-1.6.0-1 C:\Users\shazly\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
+com.srplab.starflut-jetified-annotation-experimental-1.1.0-2 C:\Users\shazly\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+com.srplab.starflut-jetified-window-1.0.0-beta04-3 C:\Users\shazly\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+com.srplab.starflut-main-4 C:\Users\shazly\AppData\Local\Pub\Cache\hosted\pub.dev\starflut-0.9.5\android\src\main\res
+com.srplab.starflut-release-5 C:\Users\shazly\AppData\Local\Pub\Cache\hosted\pub.dev\starflut-0.9.5\android\src\release\res
+com.srplab.starflut-pngs-6 D:\Current_Projects\softmodel\softmodel\build\starflut\generated\res\pngs\release
+com.srplab.starflut-resValues-7 D:\Current_Projects\softmodel\softmodel\build\starflut\generated\res\resValues\release
+com.srplab.starflut-rs-8 D:\Current_Projects\softmodel\softmodel\build\starflut\generated\res\rs\release
+com.srplab.starflut-mergeReleaseResources-9 D:\Current_Projects\softmodel\softmodel\build\starflut\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.srplab.starflut-mergeReleaseResources-10 D:\Current_Projects\softmodel\softmodel\build\starflut\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.srplab.starflut-merged_res-11 D:\Current_Projects\softmodel\softmodel\build\starflut\intermediates\merged_res\release
