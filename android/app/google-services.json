@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "989360064328",
-    "project_id": "softmodel",
-    "storage_bucket": "softmodel.appspot.com"
+    "project_number": "862709801162",
+    "project_id": "softmodel-bfffe",
+    "storage_bucket": "softmodel-bfffe.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:989360064328:android:89cd4ba26bb9c9350d957d",
+        "mobilesdk_app_id": "1:862709801162:android:370c37b8d04e55a02cd433",
         "android_client_info": {
           "package_name": "rw.ahmedshazly.softmodel"
         }
       },
       "oauth_client": [
         {
-          "client_id": "989360064328-tne9nej6as7jinaplnbio7bpgph1mqru.apps.googleusercontent.com",
+          "client_id": "862709801162-queq5cnaudr3snvqksa0o91upqu06k9i.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDwt1AxE8stOxW3i5WLGCbxAstM27lgmnI"
+          "current_key": "AIzaSyCalMYVJ24CMIQw1kc24ic_dIkfqlMfvPA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "989360064328-tne9nej6as7jinaplnbio7bpgph1mqru.apps.googleusercontent.com",
+              "client_id": "862709801162-queq5cnaudr3snvqksa0o91upqu06k9i.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

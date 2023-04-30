@@ -1,44 +1,95 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:softmodel/home/screens/accountscreen.dart';
 import 'package:softmodel/home/screens/homescreen.dart';
+import 'package:softmodel/home/screens/settingscreen.dart';
 
-import '../screens/settingscreen.dart';
-
-class HomeDrawer extends StatelessWidget {
+class HomeDrawer extends StatefulWidget {
   const HomeDrawer({
-    super.key,
-  });
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  State<HomeDrawer> createState() => _HomeDrawerState();
+}
+
+class _HomeDrawerState extends State<HomeDrawer> {
+  void _showLogoutDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('Are you sure you want to log out?'),
+          actions: <Widget>[
+            Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+              TextButton(
+              onPressed: () {
+                Navigator.of(context).pop(false);
+              },
+              child: const Text('CANCEL', style: TextStyle(color: Color(0xff072f53))),
+            ),
+            TextButton(
+              onPressed: () async {
+                await FirebaseAuth.instance.signOut();
+                // ignore: use_build_context_synchronously
+                Navigator.pushNamedAndRemoveUntil(
+                    context, '/log', (route) => false);
+              },
+              child:
+                  const Text('LOG OUT', style: TextStyle(color: Color(0xff072f53))),
+            ),
+            ],)
+          ],
+        );
+      },
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
+    final user = FirebaseAuth.instance.currentUser;
+
+    String username = 'Anonymous';
+    String email = 'anonymous@anonymous.com';
+    Widget photo = const Icon(
+      Icons.account_circle,
+      size: 60,
+      color: Colors.white,
+    );
+
+    if (user != null) {
+      final emailParts = user.email!.split('@');
+      username = emailParts.first;
+      email = user.email!;
+      photo = const Icon(
+      Icons.account_circle,
+      size: 60,
+      color: Colors.white,
+    );
+    }
+
     return Drawer(
       child: ListView(
         padding: EdgeInsets.zero,
         children: <Widget>[
           DrawerHeader(
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.amber,
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const CircleAvatar(
-                  radius: 30,
-                  backgroundColor: Colors.white,
-                  backgroundImage:
-                      AssetImage(r'lib\splashscreen\assets\images\logov2.png'),
-                ),
+                photo,
                 const SizedBox(height: 10),
-                const Text(
-                  'Username',
-                  style: TextStyle(color: Colors.white, fontSize: 18),
+                Text(
+                  username,
+                  style: const TextStyle(color: Colors.white, fontSize: 18),
                 ),
-                const Text(
-                  'user@email.com',
-                  style: TextStyle(color: Colors.white),
+                Text(
+                  email,
+                  style: const TextStyle(color: Colors.white),
                 ),
               ],
             ),
@@ -68,7 +119,7 @@ class HomeDrawer extends StatelessWidget {
             ),
             onTap: () {
               Navigator.pushReplacement(context,
-                  MaterialPageRoute(builder: (context) => SettingsScreen()));
+                  MaterialPageRoute(builder: (context) => const SettingsScreen()));
             },
           ),
           ListTile(
@@ -82,7 +133,7 @@ class HomeDrawer extends StatelessWidget {
             ),
             onTap: () {
               Navigator.pushReplacement(context,
-                  MaterialPageRoute(builder: (context) => AccountScreen()));
+                  MaterialPageRoute(builder: (context) => const AccountScreen()));
             },
           ),
           ListTile(
@@ -95,7 +146,7 @@ class HomeDrawer extends StatelessWidget {
               style: TextStyle(color: Color(0xff072f53)),
             ),
             onTap: () {
-              // TODO: Implement logout functionality
+              _showLogoutDialog(context);
             },
           ),
         ],

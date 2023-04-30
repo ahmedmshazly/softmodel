@@ -67,9 +67,6 @@ class OnBoardingScreenState extends State<OnBoardingScreen> {
                             )),
                   ],
                 ),
-                const SizedBox(
-                  height: 15,
-                ),
                 Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: OnboardingButton(

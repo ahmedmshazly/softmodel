@@ -29,8 +29,7 @@ class Onboardingbody extends StatelessWidget {
               child: SvgPicture.asset(
                 image,
               )),
-        ),
-        // const Spacer(),
+        ),        
         Text(
           title,
           textAlign: TextAlign.center,
